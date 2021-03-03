@@ -28,7 +28,7 @@ function oldScrabbleScorer(word) {
  
 	  }
 	}
-	return letterPoints.toString();
+	return letterPoints;
  }
 
 
@@ -51,7 +51,7 @@ let simpleScore = function(word) {
 		points += 1
 		// console.log(points)
 	}
-	return points.toString();
+	return points;
 };
 
 
@@ -66,7 +66,7 @@ let vowelBonusScore = function(word) {
 
 	// console.log("there are " + vowelCount + " vowels in " + word + " with 3 points each, making the vowel score " + vowelPoints + " plus " + constPoints + " points for constanants. The total score for this word is " + (vowelPoints + constPoints))
 
-	return wordPoints.toString()
+	return wordPoints
 };
 
 
@@ -90,7 +90,7 @@ let scrabbleScore = function(word) {
 	  }
 	}
 	
-	return score.toString();
+	return score;
 };
 
 
